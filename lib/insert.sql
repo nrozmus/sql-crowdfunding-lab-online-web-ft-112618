@@ -10,7 +10,7 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Baby Booties", "Shoes", 9000, 04/04/2014, 05/05/2015),
 ("Saddles", "Sex Toys", 10000, 09/02/1987, 09/02/2019);
 
- INSERT INTO users (name, age) VALUES
+INSERT INTO users (name, age) VALUES
 ("Dan", 12),
 ("Danny", 34),
 ("Dana", 31),
@@ -32,7 +32,7 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Dixie", 22),
 ("Daisy", 11);
 
- INSERT INTO pledges (amount, user_id, project_id) VALUES
+INSERT INTO pledges (amount, user_id, project_id) VALUES
 (500, 5, 2),
 (8000, 10, 10),
 (25, 20, 1),
@@ -63,6 +63,3 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 (1357, 17, 7),
 (2468, 19, 9),
 (8800, 10, 10);
-     
-28  lib/sql_queries.rb
-@@ -7,25 +7,41 @@
